@@ -4,7 +4,7 @@ const keep_alive = require('./keep_alive.js')
 
 const client = new Discord.Client();
 
-let statuses = ['.gg/chillzone', '.gg/socialized']; // Add more statuses here
+let statuses = ['.gg/chillzone', 'You are my sunshine' , 'My only sunshine' , 'You make me happy' , 'When skies are gray']; // Add more statuses here
 let currentStatusIndex = 0;
 
 client.on('ready', () => {
